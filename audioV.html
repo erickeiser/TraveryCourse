@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio & Video</title>
+  <link rel="stylesheet" href="css/audioV.css">
+</head>
+<body>
+  <h1>Video</h1>
+    <video id="myVideo" src="http://v2v.cc/~j/theora_testsuite/320x240.ogg">
+      Your Browser does not support video
+    </video>
+
+    <audio id="myAudio" src="http://www.freesound.org/data/previews/95/95026_57789-lq.mp3">
+      Your Browser does not suport audio
+    </audio>
+    <div>
+      <button onclick="document.getElementById('myAudio').play()">Play</button>
+    </div>
+    <div>
+      <button onclick="document.getElementById('myAudio').pause()">Pause</button>
+    </div>
+    <div>
+      <button onclick="document.getElementById('myAudio').volume+=.1">plus valume</button>
+    </div>
+    <div>
+      <button onclick="document.getElementById('myAudio').volume-=.1"> minus volume</button>
+    </div>
+
+   
+
+
+
+ <script>
+  v = document.getElementById('myVideo');
+ </script>   
+  
+</body>
+</html>

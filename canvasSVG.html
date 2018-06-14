@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas & SVG</title>
+  <link rel="stylesheet" href="css/canvasSVG.css">
+</head>
+<body>
+  <canvas id="myCanvas" width="300" heigth="300"></canvas>
+  
+
+
+  <script>
+   var c = document.getElementById('myCanvas');
+   var context = c.getContext('2d');
+
+    // RECTANGLE //
+  //  context.fillStyle = 'red'; 
+  //  context.fillRect(75, 75, 100, 100);
+
+  // LINE // 
+  context.moveTo(0,0);
+  context.lineTo(250,150);
+  context.stroke();
+
+
+
+  </script>
+</body>
+</html>
